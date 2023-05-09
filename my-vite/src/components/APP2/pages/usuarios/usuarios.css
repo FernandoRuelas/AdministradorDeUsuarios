@@ -1,0 +1,37 @@
+.wrapen{
+  overflow: hidden;
+}
+.wrapen-usuarios{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #3E3A37;
+
+}
+.wrapen-informacion{
+  width: 80%;
+  margin-top:20vh;
+}
+/* .wrapen-table{
+  margin: 0 auto;
+ 
+  overflow:auto;
+  background-color: rgb(78, 77, 77);
+  height: 40%;
+  width: 100%;
+  transition: all 0.5s;
+} */
+/* .wrapen-buscador-usuario{
+height: 7%;
+} */
+
+.wrapen-table::-webkit-scrollbar {
+  background-color: gray;
+  border-radius:5px;
+}
+
+/* Cambiar el color del thumb */
+.wrapen-table::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 48, 48);
+  border-radius: 5px;
+}

@@ -1,0 +1,78 @@
+{
+  "personas": [
+    {
+      "id": 22,
+      "email": "Juan@gmail.com",
+      "nombre": "Juan Ignacio",
+      "telefono": "6221562869",
+      "password": "12345678"
+    },
+    {
+      "id": 1,
+      "nombre": "Fernando Ruelas",
+      "email": "fernandor.ruelas@gmail.com",
+      "telefono": "6221562869",
+      "password": "12345678"
+    },
+    {
+      "id": "23",
+      "email": "Juan@gmail.com",
+      "nombre": "Juan Ignacio",
+      "telefono": "6221562869",
+      "password": "12345678"
+    },
+    {
+      "id": 4,
+      "email": "andreaa22vb@gmail.com",
+      "nombre": "Andrea2",
+      "telefono": "6221562893",
+      "password": "123123123"
+    },
+    {
+      "id": 32,
+      "email": "melvin@gmail.com",
+      "nombre": "Melvin",
+      "telefono": "6221562893",
+      "password": "123123123"
+    },
+    {
+      "id": "55",
+      "email": "melvin@gmail.com",
+      "nombre": "Melvin22",
+      "telefono": "6221562893",
+      "password": "123123123"
+    },
+    {
+      "id": "9",
+      "email": "melvin11@gmail.com",
+      "nombre": "Juan",
+      "telefono": "6221562893",
+      "password": "123123123"
+    },
+    {
+      "id": "29",
+      "email": "tony@gmail.com",
+      "nombre": "tony",
+      "telefono": "6221562545",
+      "password": "123123123"
+    }
+  ],
+
+  "proyectos":[
+    {
+      "id": "1",
+      "nombre":"proyecto1",
+      "descripcion": "Este proyecto sera sobre las practicas",
+      "fechaDeCreacion": "08/05/2023",
+      "integrantesDelProyecto":[22,1,4],
+      "tareasDelProyecto":[
+        {
+          "id":"1",
+          "nombre": "Tarea1",
+          "Descripcion": "Esta es la primer tarea"
+        }
+      ]
+      
+    }
+  ]
+}

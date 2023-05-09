@@ -1,0 +1,57 @@
+.wrapen-buscador{
+  position:absolute;
+  width: 250px;
+  cursor: pointer;
+}
+.wrapen-buscador-usuario{
+  height: 8%;
+  }
+
+.input-buscador{
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  height:40px;
+  color:white;
+  background: rgb(73, 72, 72);
+  padding: 0 20px;
+  
+  width: 25px;
+  position: absolute;
+  right: 0px;
+  transition: all 0.7s;
+
+}
+
+.btn-buscador{
+ position: absolute;
+ top: -5px;
+ right: -5px;
+ line-height: 60px;
+ text-align: center;
+ background-color: #212529;
+ border-radius: 15px;
+ height:50px;
+ width:45px
+}
+
+.btn-buscador > span{
+  color:white;
+  transition: all 0.7s;
+
+}
+
+/* animaciones */
+
+.wrapen-buscador:hover .input-buscador{
+  width: 250px;
+
+}
+.wrapen-buscador:hover span{
+  transform: rotate(-360deg);
+
+}
+
+.wrapen-buscador input:focus{
+  width: 250px;
+}

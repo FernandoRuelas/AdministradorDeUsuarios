@@ -1,0 +1,78 @@
+.wrapen-menu{
+  width: 11%;
+}
+
+.wrapen-menu-in{
+  margin-left:0px;
+  transition: all 0.5s;
+}
+
+.wrapen-menu-out{
+  margin-left: -15%;
+  transition: all 0.5s;
+}
+
+.iconos{
+  color: white;
+}
+
+.light{
+  filter: invert(1);
+}
+
+.btn-loGout{
+  width: 100%;
+  margin-bottom: 28%;
+}
+
+.btn-loGout input{
+  border:none;
+  background: transparent;
+  color: red;
+}
+
+.btn-loGout span{
+  color: red;
+}
+
+.btn-loGout:hover span  {
+ background-color: red;
+ color: white;
+}
+
+
+.btn-loGout:hover input {
+  background-color: red;
+  color: white;
+ }
+
+ /* navegacion */
+
+ .navegacion{
+  width: 100%;
+ }
+
+ .navegacion ul{
+  list-style: none;
+  display: inline;
+ }
+
+ .navegacion ul li{
+  color: white;
+  font-size:20px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+  cursor: pointer;
+ }
+
+ .navegacion ul li:hover{
+  background: rgb(87, 85, 85);
+
+ }
+
+ 
+.link-no-decor{
+   text-decoration: none;
+
+ }

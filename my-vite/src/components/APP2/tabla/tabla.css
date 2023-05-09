@@ -1,0 +1,9 @@
+.wrapen-table{
+  margin: 0 auto;
+ 
+  overflow:auto;
+  background-color: rgb(78, 77, 77);
+  height: 40%;
+  width: 100%;
+  transition: all 0.5s;
+}
